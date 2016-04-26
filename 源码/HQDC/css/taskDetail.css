@@ -1,0 +1,51 @@
+.main{
+	font-size: 12px;
+	margin-top: 50px;
+}
+input.title{
+	border: none;
+	margin-bottom:10px; 
+	font-size: 14px;
+
+
+}
+textarea.context{
+	font-size: 12px;
+	border: 1px dashed #ccc;
+	padding:5px;
+	height: 100px;
+	margin-bottom:10px; 
+}
+
+.download{
+	margin-bottom:10px; 
+}
+div.files{
+	margin-bottom: 5px;
+}
+.info{
+	margin-top: 5px;
+}
+.deadline{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+a.delete-task{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.upbtn{
+	position: absolute;
+	background-color: #ccc;
+	height: 31px;
+	width: 89px;
+	opacity: 0;
+	cursor: pointer;
+}
+.upbtn input{
+	position: absolute;
+    height: 31px;
+	width: 89px;
+    opacity: 0;
+    cursor: pointer
+}

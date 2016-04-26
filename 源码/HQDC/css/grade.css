@@ -1,0 +1,68 @@
+.main .box .table{
+	font-size:12px;
+}
+.main{
+	margin-top: 50px;
+	padding: 50px;
+}
+.tasks{
+	box-shadow: 0 0 4px rgba(221, 216, 216, 0.74);
+border: 1px solid #ccc;
+padding: 5px;
+margin-top: 5px;
+font-size: 12px;
+
+}
+input[type="text"].task-name {
+    background: #4D88E0;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 50% !important;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: none;
+    border:none;
+    transition:all .3s;
+}
+input[type="text"].importance {
+    display: inline-block;
+    background: #E8ECFF;
+    color: #77797C;
+    padding: 5px;
+    width: 50% !important;
+    margin-left: -5px;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: none;
+    border:none;
+    transition:all .3s;
+}
+.task-box p{
+	font-size: 12px;
+	margin-top: 10px;
+
+}
+.task-box{
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 10px;
+}
+.sticky-wrap {
+	margin-top: 20px;
+}
+.box i.fa.logo{
+
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 6px #BAB3B3;
+
+}
+.box h4 {
+    font-size: 14px;
+    margin: 15px;
+    
+}
+.modal-title{
+	font-size: 14px;
+	font-weight: normal;
+}

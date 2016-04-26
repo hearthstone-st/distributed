@@ -1,0 +1,39 @@
+i.fa.fa-bell-o.toggle-img {
+    font-size: 22px;
+    color: #7a7c8e;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -10px;
+}
+.fa.toggle-img font {
+    position:absolute;
+    background: #F7411F;
+    color: #fff;
+    padding: 2px;
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.head-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   	position: absolute;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+.head-container > font{
+margin-left: 35px !important;	
+}
+a.head-container{
+    display: inline-block !important;
+}
+a.message{
+    
+    display: inline-block !important;
+}
+.navbar-default .navbar-nav.navbar-right>li>a.log{
+        color: #72A3DB;
+}

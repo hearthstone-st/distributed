@@ -1,0 +1,230 @@
+body {
+    font-size: 100%;
+    color: #7f8c97;
+    background-color: #fff;
+    /*background: url("../images/courseBG.png");*/
+}
+.main-box{
+	margin-top: 100px;
+	
+}
+.main{
+	width: 100%;
+
+
+}
+.main h6{
+	    font-size: 14px;
+    color: #3D5A84;
+    color: #259;
+    /*color: #337ab7;*/
+    margin-bottom: 10px;
+    font-weight: bold;
+    /*background-color: #f0f3f5;
+    padding: 10px;
+    padding-left: 5px;*/
+
+
+}
+.main p{
+	margin-bottom: 5px;
+    
+    color: #777;
+}
+.main a{
+    margin-bottom: 5px;
+}
+.cbp_tmtimeline > li .cbp_tmlabel{
+	font-size: 12px;
+	color: #7f8c97;
+
+}
+.cbp_tmtimeline > li .cbp_tmlabel{
+	background: #fff;
+	color: #666;
+	padding: 0;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+
+}
+.cbp_tmtimeline > li .cbp_tmlabel:after{
+	border-right-color: #fff;
+}
+.cbp_tmtimeline > li .cbp_tmicon {
+    width: 16px;
+    height: 16px;
+    font-family: 'ecoico';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transfom: none;
+    font-size: 1.4em;
+    line-height: 40px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #fff;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #89c7f8, 0 0 0 6px #fff;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #3594cb;
+    background: #3594cb;
+    color: white;
+    text-align: center;
+    left: 20%;
+    margin: 0 0 0 -10px;
+}
+.cbp_tmtimeline > li .cbp_tmtime span:first-child{
+	margin-top: -5px;
+	font-size: 14px;
+    font-weight: normal;
+	color: #3594cb;
+    color: #2D64B3;
+    color: #666;
+}
+.cbp_tmtimeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #afdcf8;
+    /*background: #A9E8E8;*/
+    left: 20%;
+    margin-left: -3px;
+}
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+    font-size: 12px;
+    color: #3594cb;
+    color: #737373;
+}
+.cbp_tmtimeline > li .cbp_tmtime {
+    
+    padding-right: 60px;
+    
+}
+.notice-box{
+    margin-top: 20px;
+}
+
+.notice,.state{
+    text-align: left;
+    
+   
+    
+}
+.panel-heading{
+    font-weight: normal;
+    font-size: 14px;
+    
+}
+.panel-body{
+    font-size: 12px;
+}
+.panel-body ul{
+    list-style: none;
+}
+.panel-body ul li{
+    margin-bottom: 5px;
+    /*border-bottom: 1px solid #efefef;*/
+}
+
+h3{
+	
+	/*margin-right: 5%;*/
+	font-weight: bold;
+	color: #666;
+	padding-bottom: 5px;
+    font-size: 14px;
+	/*padding-left: 5px;*/
+    padding-bottom: 10px;
+	border-bottom: 1px solid #efefef;
+
+
+}
+h6 a{
+    font-size: 12px;
+    font-weight: normal;
+}
+div.context{
+    overflow: hidden;
+    max-height: 100px;
+    padding: 3px 0px;
+
+    transition:max-height .7s;
+}
+div.context.context-show{
+    max-height: 1000px;
+}
+div.info{
+    margin-top: 30px;
+}
+div.tool-box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tool-box label{
+    font-weight: normal;
+    color: #9b9b9b;
+    margin-top: 10px;
+}
+.download{
+    margin-top: 20px;
+    /*background: #f9f9f9;*/
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px dashed #e4e4e4;
+}
+
+div.cbp_tmicon.cbp_tmicon-last{
+    box-shadow: none;
+    background: none;
+    color: #afdcf8;
+    margin-top: -20px;
+    font-size: 30px;
+    margin-left: -11px;
+}
+.progress{
+   height: 15px;
+}
+.edit{
+    margin-left: 10px;
+}
+span.new-task{
+    font-size: 12px;
+    border: 1px solid #E5F3FF;
+    background-color: #F2F4F8;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+    
+}
+span.new-task a{
+    color: #337AB7;
+}
+a.delete-task{
+    margin-right: 20px;
+    color: #777;
+}
+.homeworkList{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: none;
+}
+.upbtn{
+    position: absolute;
+    background-color: #ccc;
+    height: 31px;
+    width: 89px;
+    opacity: 0;
+    cursor: pointer;
+}
+.upbtn input{
+    position: absolute;
+    height: 31px;
+    width: 89px;
+    opacity: 0;
+    cursor: pointer
+}

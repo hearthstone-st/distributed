@@ -1,0 +1,55 @@
+.table-box table{
+	font-size: 12px;
+
+}
+.main{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+input[type="text"].score{
+	width: 40px !important;
+    background: #F7F7F7;
+    color: #717171;
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.1);
+    text-shadow: 0 1px rgba(0,0,0,.1);
+    border: 1px solid #CBC9C9;
+    padding: 0px;
+    padding-left: 10px;
+}
+.table-box table a{
+	color: #337AB7;
+	
+}
+.table-box table td{
+	line-height: 20px;
+}
+.intro{
+	
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8E6E6;
+
+}
+.intro .fa-pencil{
+	font-size: 30px;
+    color: #FFFFFF;
+    
+    text-shadow: 2px 2px 6px #BAB3B3;
+}
+.intro h4{
+	font-size: 14px;
+	margin: 15px;
+}
+.sticky-wrap {
+    
+    margin: 1em 0;
+   
+}
+.intro p{
+	font-size: 12px;
+    color: #949393;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}

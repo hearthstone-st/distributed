@@ -1,0 +1,98 @@
+.new-post{
+  font-size: 12px;
+  margin-top: 30px;
+}
+h6{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 12px;
+}
+.center .fa{
+    font-size: 35px;
+    color: #FFFFFF;
+    padding-bottom:10px;
+   
+    text-shadow: 2px 2px 6px #BAB3B3;
+}
+.new-post label{
+  font-weight: normal !important;
+  color: #7C7C7C;
+  font-size: 12px !important;
+  margin-bottom: 5px;
+}
+.new-post .form-control{
+  box-shadow: none;
+  font-size: 12px;
+  padding: 8px;
+  box-shadow: 0 0 4px rgba(221, 216, 216, 0.74), 0 0 0px 1002px #FCFCFC inset;
+
+}
+.new-post input.form-control{
+  height: 40px;
+  
+}
+.new-post textarea.form-control{
+  height: 150px;
+  
+}
+.clear-both{
+  margin-bottom: 20px;
+}
+.center .btn.btn-default{
+  background: #2575ed;
+  color: #fff;
+  border:none;
+  padding:8px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+}
+.img-box{
+  
+  float: left;
+}
+.img-box img{
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+.tools-droparea {
+    float: left;
+    width: 100px;
+    height: 100px;
+
+    overflow:hidden;
+    text-align: center;
+    cursor: pointer;
+    border:3px dashed rgba(0,0,0,0.1);
+}
+input#fileUpload{
+  opacity: 0;
+  filter: alpha(opacity=0);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  cursor: pointer;
+  padding:15px;
+  z-index: 1;
+
+}
+.tools-droparea span{
+  display: block;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 20px;
+  z-index: -1;
+  cursor: pointer;
+}
+.tools-droparea span .fa{
+  font-size: 50px;
+  color:#b1b1b1;
+  margin-left: 5px;
+}
+.new-post input.form-control.end-time{
+	height:35px;
+}

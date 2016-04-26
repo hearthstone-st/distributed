@@ -1,0 +1,47 @@
+
+.wrapper{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.center-box{
+	text-align: left;
+}
+.head{
+
+	padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+
+}
+.head span{
+	    font-weight: bold;
+    color: #666;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.ul-box ul{
+
+}
+.ul-box ul li{
+	list-style: none;
+	font-size: 13px;
+	border-bottom: 1px dashed #efefef;
+	margin-top: 10px;
+
+}
+.new-task{
+	font-size: 12px !important;
+    border: 1px solid #E5F3FF;
+    background-color: #F2F4F8;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+select.form-control{
+	/*box-shadow: none;*/
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	font-size: 12px;
+    padding: 8px;
+    box-shadow: 0 0 4px rgba(221, 216, 216, 0.74);
+}

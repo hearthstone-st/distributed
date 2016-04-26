@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	var a=1;
+	function test(){
+		alert(a);
+		a = 2;
+		alert(this.a);
+		this.a = 4;
+		var a = 3;
+		alert(a);
+	}
+	test();
+	alert(a);
+
+</script>
+</body>
+</html>

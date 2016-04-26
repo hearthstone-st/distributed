@@ -1,0 +1,112 @@
+#googleMap {
+    width: 80%;  
+    height: 400px;  
+    margin: auto;  
+    background-color: #666;  
+    border: solid 10px #FFFFFF;  
+    margin-bottom: 20px;  
+    box-shadow: 0 0 5px #ccc;
+}
+
+.contact-form textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="phone"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="datetime"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="color"]:focus, input[type="time"]:focus, input[type="search"]:focus, input[type="datetime-local"]:focus, textarea:focus {
+outline: 0;
+border: 1px solid #2575ed;
+-webkit-box-shadow: none;
+box-shadow: none;
+
+background: #E8EDF8;
+}
+.main{
+    text-align: center;
+}
+h3 {
+text-shadow: 1px 1px 0 #fff;
+font-size: 20px;
+line-height: 1.4;
+letter-spacing: 4px;
+color: #444;
+
+font-style: normal;
+text-transform: uppercase;
+
+margin-top: 50px;
+}
+h4 {
+text-shadow: 1px 1px 0 #fff;
+letter-spacing: 4px;
+font-size: 16px;
+line-height: 140%;
+
+
+margin-bottom: 30px;
+color: #555;
+margin-top: 0px;
+}
+.intro {
+
+font-size: 14px;
+
+font-size: .83em;
+line-height: 1.75;
+color: #666666;
+
+text-align: left;
+text-decoration: none;
+}
+.intro p {
+text-shadow: 1px 1px 0 #fff;
+letter-spacing: 1px;
+font-size: 14px;
+line-height: 160%;
+
+
+margin-top: 20px;
+}
+#contactform {
+
+}
+.contact-form input {
+border: 1px solid #d5d5d5;
+outline: 0;
+padding: 10px 12px;
+color: #666666;
+width: 100%;
+font-size: 12px !important;
+}
+#contactform {
+}
+#contactform p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.contact-form .mainBtn:hover {
+background: #DF3C27;
+box-shadow: 0 0 0 2px white, 0 0 0 3px #DA4681;
+}
+.contact-form .mainBtn {
+margin-top: 15px;
+color: white;
+background-color: #ec523f;
+text-transform: uppercase;
+border: 0;
+
+cursor: hand;
+}
+.contact-form textarea {
+width: 100%;
+max-width: 100%;
+height: 120px;
+border: 1px solid #d5d5d5;
+outline: 0;
+padding: 10px 12px;
+color: #666666;
+outline: 0;
+padding: 10px 12px;
+color: #666666;
+
+font-size: 12px;
+}
+.intro ul{
+    margin: 0;
+    margin-top: -20px
+}

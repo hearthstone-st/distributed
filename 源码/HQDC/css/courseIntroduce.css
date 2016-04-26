@@ -1,0 +1,36 @@
+.panel-heading {
+    font-weight: normal;
+    font-size: 14px;
+}
+.panel-body ul {
+    list-style: none;
+}
+.panel-body ul li {
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid #efefef; */
+    font-size: 12px;
+}
+.main ul.nav a{
+	font-size: 14px;
+}
+h1{
+	font-size: 14px;
+	margin: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+.info{
+	font-size: 12px;
+}
+.tab1,.tab2,.tab3{
+	/*border:1px solid #ccc;
+	padding: 10px;
+	border-top: none;*/
+	
+}
+.tab2,.tab3{
+	display: none;
+}
+.info{
+	padding: 30px;
+}
